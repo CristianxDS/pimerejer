@@ -9,7 +9,7 @@ export default function Pagina1Screen() {
   //console.log(datos);
   return (
     <View>
-      <Text>Pagina1Screen</Text>
+      <Text></Text>
       <FlatList
       data={datos}
     

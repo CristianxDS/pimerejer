@@ -20,7 +20,7 @@ const [datos, setDatos] = useState()
 
   return (
     <View>
-      <Text>Pagina2Screen</Text>
+      <Text></Text>
 <FlatList
 data={datos}
 renderItem={({item})=>

@@ -8,7 +8,7 @@ export default function Pagina3Screen() {
     
     useEffect(() => {
      if(celsius< -273.15){
-        setcelsius(-273.15)        
+        setcelsius(-273.15)  ;      
         }
         
     }, [celsius])
@@ -33,7 +33,7 @@ Alert.alert('Resultado',`Celsius: ${celsius}°C'  ' F=: ${faren.toFixed(2)}°F' 
               
             />
 
-            <Button title='ACEPTAR'
+            <Button title='CALCULAR'
             onPress={ ()=>convertir()}
             />
         </View>

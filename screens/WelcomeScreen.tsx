@@ -10,7 +10,7 @@ export default function WelcomeScreen({ navigation }: any) {
         >
             <Text
                 style={styles.texto}
-            >WelcomeScreen</Text>
+            >BIENVENIDOS</Text>
               <Text
                 style={styles.texto}
             >Cristhiam Sabando</Text>
@@ -31,7 +31,8 @@ const styles = StyleSheet.create({
     texto: {
         fontSize:30,
         color:'white',
-
+        textAlign:'center',
+        justifyContent:'center'
 
     },
 
